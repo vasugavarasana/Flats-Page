@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomesunriseavenue">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="home-page-container">
+                <div class="home-page-content">
+                    <h1 class="home-page-heading">Sunrise avenue</h1>
+                    <p class="home-page-paragraph">Move to what moves you</p>
+                    <button class="home-page-button" onclick="display('sectionFlatspage')">BOOK FLAT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFlatspage">
+        <div class="flats-list-container">
+            <h1 class="flats-list-heading-1">Sunrise Avenue</h1>
+            <div class="d-flex flex-column">
+                <div class="description-container d-flex flex-row" onclick="display('section3bhkdescription')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="flats-list-image" />
+                    <div class="flats-list-details">
+                        <div class="d-flex flex-column">
+                            <h1 class="flats-list-heading">3BHK Flat</h1>
+                            <p class="flats-list-paragraph">This is a fully furnished house with handmade firniture including a luxury en-suite facilities pack.it built-up area about 1600sq.ft A spacious home for you to live.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-container d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="flats-list-image" />
+                    <div class="flats-list-details">
+                        <div class="d-flex flex-column">
+                            <h1 class="flats-list-heading">2BHK Flat</h1>
+                            <p class="flats-list-paragraph">A minimalist house made for modern day families,is fully furnished with trending furniture.its build-up area is about1200sq.ft. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-container d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="flats-list-image" />
+                    <div class="flats-list-details">
+                        <div class="d-flex flex-column">
+                            <h1 class="flats-list-heading">4BHK Flat</h1>
+                            <p class="flats-list-paragraph">A contemprary home with more color and vibrancy.it is fully furnished with elegant furniture.it's built-up area is about 3600sq.ft.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="flats-button" onclick="display('sectionhomesunriseavenue')"> BACK</button>
+        </div>
+    </div>
+    <div id="section3bhkdescription">
+        <div class="flats-description-container">
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
